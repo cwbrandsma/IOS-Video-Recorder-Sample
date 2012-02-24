@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E629456C14F736BA006A1D03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E629456B14F736BA006A1D03 /* UIKit.framework */; };
+		E629456E14F736BA006A1D03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E629456D14F736BA006A1D03 /* Foundation.framework */; };
+		E629457014F736BA006A1D03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E629456F14F736BA006A1D03 /* CoreGraphics.framework */; };
+		E629457614F736BB006A1D03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E629457414F736BB006A1D03 /* InfoPlist.strings */; };
+		E629457814F736BB006A1D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E629457714F736BB006A1D03 /* main.m */; };
+		E629457C14F736BB006A1D03 /* umgAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E629457B14F736BB006A1D03 /* umgAppDelegate.m */; };
+		E629457F14F736BB006A1D03 /* umgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E629457E14F736BB006A1D03 /* umgViewController.m */; };
+		E629458214F736BB006A1D03 /* umgViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E629458014F736BB006A1D03 /* umgViewController_iPhone.xib */; };
+		E629458514F736BB006A1D03 /* umgViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E629458314F736BB006A1D03 /* umgViewController_iPad.xib */; };
+		E629458C14F73BE2006A1D03 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E629458B14F73BE2006A1D03 /* AVFoundation.framework */; };
+		E629458E14F73BF1006A1D03 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E629458D14F73BF1006A1D03 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E629456714F736BA006A1D03 /* VideoRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E629456B14F736BA006A1D03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E629456D14F736BA006A1D03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E629456F14F736BA006A1D03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E629457314F736BA006A1D03 /* VideoRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoRecorder-Info.plist"; sourceTree = "<group>"; };
+		E629457514F736BB006A1D03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E629457714F736BB006A1D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E629457914F736BB006A1D03 /* VideoRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		E629457A14F736BB006A1D03 /* umgAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = umgAppDelegate.h; sourceTree = "<group>"; };
+		E629457B14F736BB006A1D03 /* umgAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = umgAppDelegate.m; sourceTree = "<group>"; };
+		E629457D14F736BB006A1D03 /* umgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = umgViewController.h; sourceTree = "<group>"; };
+		E629457E14F736BB006A1D03 /* umgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = umgViewController.m; sourceTree = "<group>"; };
+		E629458114F736BB006A1D03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/umgViewController_iPhone.xib; sourceTree = "<group>"; };
+		E629458414F736BB006A1D03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/umgViewController_iPad.xib; sourceTree = "<group>"; };
+		E629458B14F73BE2006A1D03 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E629458D14F73BF1006A1D03 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E629456414F736BA006A1D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E629458E14F73BF1006A1D03 /* MobileCoreServices.framework in Frameworks */,
+				E629458C14F73BE2006A1D03 /* AVFoundation.framework in Frameworks */,
+				E629456C14F736BA006A1D03 /* UIKit.framework in Frameworks */,
+				E629456E14F736BA006A1D03 /* Foundation.framework in Frameworks */,
+				E629457014F736BA006A1D03 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E629455C14F736BA006A1D03 = {
+			isa = PBXGroup;
+			children = (
+				E629457114F736BA006A1D03 /* VideoRecorder */,
+				E629456A14F736BA006A1D03 /* Frameworks */,
+				E629456814F736BA006A1D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E629456814F736BA006A1D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E629456714F736BA006A1D03 /* VideoRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E629456A14F736BA006A1D03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E629458D14F73BF1006A1D03 /* MobileCoreServices.framework */,
+				E629458B14F73BE2006A1D03 /* AVFoundation.framework */,
+				E629456B14F736BA006A1D03 /* UIKit.framework */,
+				E629456D14F736BA006A1D03 /* Foundation.framework */,
+				E629456F14F736BA006A1D03 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E629457114F736BA006A1D03 /* VideoRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				E629457A14F736BB006A1D03 /* umgAppDelegate.h */,
+				E629457B14F736BB006A1D03 /* umgAppDelegate.m */,
+				E629457D14F736BB006A1D03 /* umgViewController.h */,
+				E629457E14F736BB006A1D03 /* umgViewController.m */,
+				E629458014F736BB006A1D03 /* umgViewController_iPhone.xib */,
+				E629458314F736BB006A1D03 /* umgViewController_iPad.xib */,
+				E629457214F736BA006A1D03 /* Supporting Files */,
+			);
+			path = VideoRecorder;
+			sourceTree = "<group>";
+		};
+		E629457214F736BA006A1D03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E629457314F736BA006A1D03 /* VideoRecorder-Info.plist */,
+				E629457414F736BB006A1D03 /* InfoPlist.strings */,
+				E629457714F736BB006A1D03 /* main.m */,
+				E629457914F736BB006A1D03 /* VideoRecorder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E629456614F736BA006A1D03 /* VideoRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E629458814F736BB006A1D03 /* Build configuration list for PBXNativeTarget "VideoRecorder" */;
+			buildPhases = (
+				E629456314F736BA006A1D03 /* Sources */,
+				E629456414F736BA006A1D03 /* Frameworks */,
+				E629456514F736BA006A1D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoRecorder;
+			productName = VideoRecorder;
+			productReference = E629456714F736BA006A1D03 /* VideoRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E629455E14F736BA006A1D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E629456114F736BA006A1D03 /* Build configuration list for PBXProject "VideoRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E629455C14F736BA006A1D03;
+			productRefGroup = E629456814F736BA006A1D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E629456614F736BA006A1D03 /* VideoRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E629456514F736BA006A1D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E629457614F736BB006A1D03 /* InfoPlist.strings in Resources */,
+				E629458214F736BB006A1D03 /* umgViewController_iPhone.xib in Resources */,
+				E629458514F736BB006A1D03 /* umgViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E629456314F736BA006A1D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E629457814F736BB006A1D03 /* main.m in Sources */,
+				E629457C14F736BB006A1D03 /* umgAppDelegate.m in Sources */,
+				E629457F14F736BB006A1D03 /* umgViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E629457414F736BB006A1D03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E629457514F736BB006A1D03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E629458014F736BB006A1D03 /* umgViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E629458114F736BB006A1D03 /* en */,
+			);
+			name = umgViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E629458314F736BB006A1D03 /* umgViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E629458414F736BB006A1D03 /* en */,
+			);
+			name = umgViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E629458614F736BB006A1D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E629458714F736BB006A1D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E629458914F736BB006A1D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoRecorder/VideoRecorder-Prefix.pch";
+				INFOPLIST_FILE = "VideoRecorder/VideoRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E629458A14F736BB006A1D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoRecorder/VideoRecorder-Prefix.pch";
+				INFOPLIST_FILE = "VideoRecorder/VideoRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E629456114F736BA006A1D03 /* Build configuration list for PBXProject "VideoRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E629458614F736BB006A1D03 /* Debug */,
+				E629458714F736BB006A1D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E629458814F736BB006A1D03 /* Build configuration list for PBXNativeTarget "VideoRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E629458914F736BB006A1D03 /* Debug */,
+				E629458A14F736BB006A1D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E629455E14F736BA006A1D03 /* Project object */;
+}
